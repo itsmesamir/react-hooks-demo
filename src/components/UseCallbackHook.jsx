@@ -21,7 +21,7 @@ const UseCallbackHook = () => {
 
 export default UseCallbackHook;
 
-// more advanced example
+// // more advanced example
 
 // import React, { useState, useCallback } from "react";
 

@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <h1>React Hooks Demonstration.</h1>
       {/* <UseStateHook /> */}
-      <UseEffectHook />
-      {/* <UseMemoHook /> */}
+      {/* <UseEffectHook /> */}
+      <UseMemoHook />
       {/* <UseCallbackHook /> */}
       {/* <UseRefHook /> */}
       {/* <UseCustomHook /> */}

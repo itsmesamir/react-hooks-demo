@@ -31,7 +31,7 @@ function AppRouter() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/hooks" element={<HooksDemo />} />
-              <Route path="/context" element={<UseCountContextHook />} />
+              <Route path="/context" Component={<UseCountContextHook />} />
             </Routes>
           </main>
         </div>
