@@ -44,14 +44,6 @@ const UseEffectHook = () => {
 
   const clickHandler = () => setCount(count + 1);
 
-<<<<<<< Updated upstream
-=======
-  useEffect(() => {
-    console.log("useEffect called");
-    document.title = `Count: ${count}`;
-  }, [1]);
-
->>>>>>> Stashed changes
   // useEffect(() => {
   //   console.log("useEffect called");
   //   document.title = `Count: ${count}`;
