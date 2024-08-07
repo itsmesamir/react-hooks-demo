@@ -4,6 +4,8 @@ import { useUser } from "./UserContext";
 function GrandChild() {
   const { user, setUser } = useUser();
 
+  console.log("GrandChild Component");
+
   const handleChangeName = () => {
     setUser({ name: "Jane Doe" });
   };

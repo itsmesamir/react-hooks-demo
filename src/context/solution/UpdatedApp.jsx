@@ -3,6 +3,8 @@ import { UserProvider } from "./UserContext";
 import Parent from "./Parent";
 
 function App() {
+  console.log("App Component...");
+
   return (
     <UserProvider>
       <div>

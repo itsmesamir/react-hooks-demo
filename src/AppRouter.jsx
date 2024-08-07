@@ -12,7 +12,7 @@ function AppRouter() {
       <CountProvider>
         <div className="App">
           <header className="App-header">
-            <h1>React Hooks Demonstration App</h1>
+            <h1>React Router Demonstration App</h1>
             <nav>
               <ul>
                 <li>

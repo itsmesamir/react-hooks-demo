@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { useUser } from "./App";
 
-function GrandChild({ user, setUser }) {
+function GrandChild() {
+  const { user, setUser } = useUser();
+
   console.log("GrandChild Component");
 
   const handleChangeName = () => {
-    setUser({ name: "Updated Name" });
+    setUser({ name: "Jane Doe" });
   };
 
   return (
